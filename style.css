@@ -221,7 +221,12 @@ font-size: larger;
                 font-weight: 400;
             color: yellow;
         }
-
+.content-img{
+    transition: all 0.5s;
+}
+.content-img:hover{
+    transform: scale(1.2);
+}
 .footer-header h1{
 
     text-align: center;
