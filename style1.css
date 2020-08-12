@@ -1,0 +1,75 @@
+/* <!-- hoặc làm theo style này --> */
+
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+.div-header1{
+    background-color: none;
+text-align: center;
+font-family: sans-serif;
+font-weight: 100;
+}
+
+#wrapper{
+    width: 1250px;
+    margin: 0 auto;
+    height: auto;
+    background-color: blueviolet;
+}
+.clear{
+    clear: both;
+    display: block;
+}
+.logo{
+        float: left;
+
+    height: 48px;
+}
+.logo img {
+    width: 180px;
+    height: 100%;
+}
+
+ul li{
+    list-style: none;
+}
+.main-menu {float: right;
+}
+.main-menu li{
+        display: inline-table;
+      text-align: center;
+      position: relative;
+}
+
+.main-menu li a{
+
+       width: 120px;
+       height: 48px;
+       line-height: 48px;
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        display: block; 
+}
+.main-menu li a:hover{
+    background-color: thistle;
+}
+.main-menu li > .sub-menu{
+    position: absolute;
+}
+.sub-menu{
+    padding-left: 0px;
+    display: none;
+}
+.sub-menu li  {
+   display: block;
+}
+.main-menu li:hover .sub-menu{
+    display: block;
+}   

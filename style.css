@@ -1,0 +1,263 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0 ;
+    padding: 0;
+}
+
+ body{
+background-image: url("https://www.takadada.com/wp-content/uploads/2019/07/hinh-nen-vu-tru-14.jpg");
+background-size: cover;
+}
+main{
+    border: 1px solid rgb(61, 61, 61);
+height: auto;
+margin:auto ;
+}
+.div-header1 p {
+    background-color: none;
+text-align: center;
+font-family: sans-serif;
+font-weight: 600;
+background-color: rgb(167, 166, 165);
+text-transform: capitalize;
+text-shadow:0.1px 0.1px rgb(168, 168, 168) ;
+font-weight: bold;
+font-size: larger;
+}
+#wrapper{
+    width: 1300px;
+    margin: auto;
+    /* position: relative;
+    top:15px; */
+    margin-top: 15px;
+    background-color: rgb(50, 50, 51);
+    border-top: 1px solid rgb(61, 61, 61);
+    border-left: 1px solid rgb(61, 61, 61);
+    border-right: 1px solid rgb(61, 61, 61);
+}
+.logo{
+    height: 60px;
+    float: left;
+}
+.logo img{
+    width: 180px;
+    height: 100%;
+    position: relative;
+    left: 130px;
+    top: -1px;
+}
+
+.clear{
+    clear: both;
+}
+.main-menu{
+    margin-right: 0px;
+
+}
+
+.main-menu ul{
+         width: 100%;
+        list-style: none;
+        text-align: center;
+        background-color:rgb(50, 50, 51);
+
+    }
+.main-menu ul li {
+    display: inline-table;
+    width: 130px;
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+    margin-top: 7px;
+
+}
+
+
+.search i{
+    color: white;
+    margin-left: px;
+}
+.main-menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: medium;
+    transition: all 1s;
+    font-weight: 500;
+}
+.main-menu ul li a:hover{
+    background-color: #f3d5d1;
+    font-weight: bolder ;
+     font-size: 18px;
+    border:  solid 0.1px;
+
+}
+.main-menu ul li .sub-menu{
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+.main-menu ul li:hover .sub-menu
+{
+    display: block;
+}
+.main-menu ul li .sub-menu li{
+    position: relative ;
+}
+
+.main-menu ul li > .sub-menu li > .sub-list {
+    display: none;
+    z-index: 1001;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 245px;   
+}
+
+ .main-menu ul li .sub-menu li:hover .sub-list{
+    display: block;
+ }
+ main{
+     width: 1300px;
+ }
+.content u {
+    list-style: none;
+    
+}
+.content ul {
+    list-style: none;
+    padding: 0 auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.content ul .sub-content{
+    display: inline-block;
+    padding: 0;
+    margin: 10px 10px 30px 20px;
+    background-color: rgb(59, 58, 58);
+   border: 1px solid rgb(201, 199, 199);
+}
+.content ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(225, 240, 9);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content ul li a img {
+    border: 1px solid rgb(61, 61, 61);
+    transition: all 0.5s;
+}
+.content ul .sub-content:hover{
+    box-shadow: 0px 0px 3px 3px #b4b2b2;
+
+}
+.content-img{
+  font-size: 20px; padding: 10px 0; border: 1px solid wheat; width: 120px; height: 25px;margin:15px 75.5px;
+}
+.sub-content{
+    position: relative;
+    overflow: hidden;
+}
+.list ul{
+    padding: 0px;
+}
+.list ul li{
+    display: block;
+    text-align: left;
+    padding: 2px 3px;
+    margin: 0px 3px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+.content ul li .overlay{
+
+    background-color: black;
+    width: 273px;
+    height: 153px;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    z-index: 1;
+    border: 1px solid rgb(61, 61, 61);
+    opacity: 0;
+   transition: right 1s;
+}
+.content ul li a:hover .overlay{
+    opacity: 0.5;
+    right:0%;
+}
+.content-overlay{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    overflow: hidden;
+    z-index: 2;
+ }
+   .content-overlay ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            height: 140px;
+        }
+.content-overlay ul li{
+    padding: 0;
+    margin: 0;
+    text-align: left;         
+    transition: font-size 1s;
+    font-size: 0;
+    color: yellow   ;    
+     width: 230px;
+     padding: 10px 0;
+}
+.content ul li a:hover  .content-overlay ul li {
+            font-size: small;
+                font-weight: 400;
+            color: yellow;
+        }
+
+.footer-header h1{
+
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(243, 26, 19);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer-list {
+text-align: center;
+}   
+.footer-list ul{
+    margin: 0 auto;
+    padding: 0 auto;
+    list-style: none;
+}
+.footer-list ul li {
+   /* display: inline-table; */
+   display: inline-block;
+    width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.sub-header{
+    font-size: 20px;    color: white;
+
+}
+.sub-para{
+    font-weight: 500;
+    font-size: 16px;    color: white;
+
+}
+.icon {
+    color: red;
+    font-size: 60px;
+}
