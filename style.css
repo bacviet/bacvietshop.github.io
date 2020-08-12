@@ -240,8 +240,8 @@ text-align: center;
     list-style: none;
 }
 .footer-list ul li {
-   /* display: inline-table; */
-   display: inline-block;
+   display: inline-table;
+   /* display: inline-block; */
     width: 300px;
     padding: 10px 10px;
     text-align: center;
