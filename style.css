@@ -217,8 +217,8 @@ font-size: larger;
      padding: 10px 0;
 }
 .content ul li a:hover  .content-overlay ul li {
-            font-size: small;
-                font-weight: 400;
+            font-size: 13px;
+                font-weight: bold;
             color: yellow;
         }
 .content-img{
